@@ -1,8 +1,8 @@
 <script setup>
-import linkedin from '/src/assets/linkedin_icon.svg';
-import instagram from '/src/assets/instagram_icon.svg';
-import github from '/src/assets/github_icon.svg';
-import cv from '/src/assets/cv_resume_icon.svg';
+import linkedin from '../assets/linkedin_icon.svg';
+import instagram from '../assets/instagram_icon.svg';
+import github from '../assets/github_icon.svg';
+import cv from '../assets/cv_resume_icon.svg';
 
 const title = 'Nelson Ríos';
 const descripcion = 'Técnico Electromecánico y Técnico Universitario en Programación - UTN';
@@ -37,12 +37,14 @@ const telefono = '+54 9 2604-474849';
 <style scoped>
 h1 {
   font-size: 2.5rem;
+  color: aliceblue;
 }
 
 p {
   font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 1rem;
+  color: aliceblue;
 }
 
 .card {
