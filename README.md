@@ -11,7 +11,6 @@ Este portafolio tiene como objetivo presentar mis habilidades y proyectos en des
 
 - **Vue.js**: Un marco progresivo de JavaScript para construir interfaces de usuario.
 - **Vue Router**: Para la navegación entre diferentes secciones del portafolio.
-- **Vuex**: Para la gestión del estado (si es necesario).
 - **HTML5**: Estructura básica del sitio.
 - **CSS3**: Estilo y diseño del portafolio.
 - **JavaScript**: Lógica de la aplicación.
@@ -19,5 +18,4 @@ Este portafolio tiene como objetivo presentar mis habilidades y proyectos en des
 ## Características
 
 - **Secciones Responsivas**: El portafolio está diseñado para adaptarse a diferentes tamaños de pantalla.
-- **Navegación Fluida**: Uso de Vue Router para facilitar la navegación.
-- **Proyectos Destacados**: Muestra de proyectos que he realizado, con descripciones y enlaces a repositorios.
+- **Proyectos Destacados**: Muestra de proyectos que he realizado.
