@@ -10,11 +10,11 @@ const residencia = 'Tres de Febrero, Buenos Aires, Argentina';
 const presentacion = 'Hola, Bienvenido a mi portafolio de proyectos. Soy un desarrollador web con experiencia en el desarrollo de aplicaciones web y móviles.';
 const redesSociales = [
   { id: 1, name: 'linkedin', src: linkedin, url: 'https://www.linkedin.com/in/nelson-r%C3%ADos-ba9403218/' },
-  { id: 2, name: 'Instagram', src: instagram, url: 'https://www.instagram.com/joseperez/' },
-  { id: 3, name: 'github', src: github, url: '' },
-  { id: 4, name: 'curriculum', src: cv, url: '' },
+  { id: 2, name: 'Instagram', src: instagram, url: 'https://www.instagram.com/nelson_pumpa?igsh=dDFpeGdva2FsMHQy' },
+  { id: 3, name: 'github', src: github, url: 'https://github.com/Nelrios' },
+  { id: 4, name: 'curriculum', src: cv, url: 'https://www.canva.com/design/DAGU1Pc_BSc/brum6XUx5bJZrq7euvuNXw/view?utm_content=DAGU1Pc_BSc&utm_campaign=designshare&utm_medium=link&utm_source=editor' },
 ];
-const telefono = '+54 9 2604-474849';
+const telefono = '+54 9 11 6888-3809';
 </script>
 
 <template>
