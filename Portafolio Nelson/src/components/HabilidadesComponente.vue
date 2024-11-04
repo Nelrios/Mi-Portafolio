@@ -81,7 +81,9 @@ const habilidades = ref([
 <style scoped>
 .skills-contenedor {
     padding: 2rem;
-    background: linear-gradient(-45deg, #021526, #03346E, #6EACDA, #E2E2B6);
+    background: linear-gradient(-45deg, #021526, #03346E, #6EACDA, #6198a9);
+    border-radius: 10px;
+    min-width: 280px;
 }
 
 .skills-categoria {

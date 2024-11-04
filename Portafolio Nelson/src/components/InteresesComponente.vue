@@ -26,6 +26,7 @@ const intereses = ref([
     margin: 0 auto;
     max-width: 100%;
     padding: 1rem;
+    min-width: 280px;
 }
 
 .contenedor-lista {

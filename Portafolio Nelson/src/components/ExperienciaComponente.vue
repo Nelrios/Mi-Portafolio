@@ -16,9 +16,9 @@ const experiencias = ref([
         <h3 class="titulo">{{ titulo.toLocaleUpperCase() }}</h3>
         <p class="fecha">{{ fecha }}</p>
         <ul class="listado">
-            <li class="item" v-for="experencia in experiencias" :key="experencia.id">
-                <img class="imagen-svg" :src="experencia.src" :alt="experencia.parrafo">
-                <p>{{ experencia.parrafo }}</p>
+            <li class="item" v-for="experiencia in experiencias" :key="experiencia.id">
+                <img class="imagen-svg" :src="experiencia.src" :alt="experiencia.parrafo">
+                <p>{{ experiencia.parrafo }}</p>
             </li>
         </ul>
     </div>
@@ -28,13 +28,16 @@ const experiencias = ref([
 .card {
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    padding: 1.5rem; /* Ajuste del padding */
     background-color: rgb(28, 41, 52);
     border-radius: 15px;
+    max-width: 95%; /* Cambiado a 95% para ser un poco más ancho */
+    min-width: 280px; /* Añadido un ancho mínimo para pantallas pequeñas */
+    margin: 20px auto; /* Centra la tarjeta y agrega un margen */
 }
 
-.imagen-svg{
-    width: 80px;
+.imagen-svg {
+    width: 60px; /* Ajuste de tamaño para pantallas pequeñas */
     height: auto;
     margin-right: 1rem;
 }
@@ -42,25 +45,45 @@ const experiencias = ref([
 .titulo {
     font-size: 1.5rem;
     color: coral;
+    text-align: center; /* Centra el título */
 }
 
 .fecha {
     font-size: 1rem;
     color: burlywood;
     margin-bottom: 1rem;
+    text-align: center; /* Centra la fecha */
 }
 
 .listado {
     display: flex;
     flex-direction: column;
+    padding: 0; /* Eliminar padding extra */
 }
 
 .item {
-    align-items: center;
+    align-items: flex-start; /* Cambiar a flex-start para mejor alineación */
     display: flex;
-    padding: 1rem;
-    gap: 1.5rem;
-    font-size: 20px;
+    padding: 0.5rem; /* Ajuste del padding */
+    gap: 1rem; /* Espacio entre icono y texto */
+    font-size: 1rem; /* Ajuste de tamaño de fuente para pantallas pequeñas */
     color: aliceblue;
 }
+
+@media (max-width: 600px) {
+    .titulo {
+        font-size: 22px; /* Reducción en pantallas pequeñas */
+    }
+    .fecha {
+        font-size: 0.9rem; /* Reducción en pantallas pequeñas */
+    }
+    .item {
+        font-size: 0.9rem; /* Reducción en pantallas pequeñas */
+        overflow: visible;
+    }
+    .imagen-svg {
+        width: 40px; /* Ajuste de tamaño para pantallas pequeñas */
+    }
+}
 </style>
+
